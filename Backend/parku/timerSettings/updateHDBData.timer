@@ -1,0 +1,11 @@
+[Unit]
+Description=Update HDB Data Timer
+Requires=updateHDBData.service
+
+[Timer]
+Unit=updateHDBData.service
+OnCalendar=Weekly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

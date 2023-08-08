@@ -1,0 +1,10 @@
+[Unit]
+Description=Update HDB Availability
+Wants=updateHDBAvailability.timer
+
+[Service]
+Type=oneshot
+ExecStart=/home/VMadmin/parku/production/updateHDBAvailability.sh
+
+[Install]
+WantedBy=multi-user.target

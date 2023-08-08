@@ -1,0 +1,11 @@
+[Unit]
+Description=Update HDB Availability Timer
+Requires=updateHDBAvailability.service
+
+[Timer]
+Unit=updateHDBAvailability.service
+OnCalendar=*-*-* *:05,35:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

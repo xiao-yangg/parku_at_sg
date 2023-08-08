@@ -1,0 +1,10 @@
+[Unit]
+Description=Update HDB Data
+Wants=updateHDBData.timer
+
+[Service]
+Type=oneshot
+ExecStart=/home/VMadmin/parku/production/updateHDBData.sh
+
+[Install]
+WantedBy=multi-user.target

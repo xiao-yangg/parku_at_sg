@@ -1,0 +1,10 @@
+[Unit]
+Description=Update Prediction
+Wants=updatePrediction.timer
+
+[Service]
+Type=oneshot
+ExecStart=/home/VMadmin/parku/production/updatePrediction.sh
+
+[Install]
+WantedBy=multi-user.target

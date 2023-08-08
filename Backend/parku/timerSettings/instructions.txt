@@ -1,0 +1,5 @@
+Copy .service and .timer to ~/.config/systemd/user
+
+Then 
+systemctl --user enable <>.service <>.timer
+systemctl -user start <>.timer

@@ -1,0 +1,11 @@
+[Unit]
+Description=Update Prediction Timer
+Requires=updatePrediction.service
+
+[Timer]
+Unit=updatePrediction.service
+OnCalendar=Weekly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

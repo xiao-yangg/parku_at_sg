@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913659268412",
+    "project_id": "river-interface-338802",
+    "storage_bucket": "river-interface-338802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913659268412:android:7ba2b643b40f8e18e8e239",
+        "android_client_info": {
+          "package_name": "com.example.ce2006_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913659268412-im82fptltpq8orftcc11vva7iaus4l5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm7lJyVzr0ApUcyTzx4KHa24SgVkPWXjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913659268412-im82fptltpq8orftcc11vva7iaus4l5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
