@@ -25,6 +25,14 @@ Mobile application with integrated features for searching all HDB carparks islan
 2. Open 'frontend' folder using Android Studio and run
 3. Run 'backend' folder using Python script
 
+## Preview
+
+<div style="display:flex; flex-direction:row;">
+  <img src="images/signup-screen.png" alt="Sign Up Screen" width="240" height="520">
+  <img src="images/home-screen.png" alt="Home Screen" width="240" height="520">
+  <img src="images/destination-screen.png" alt="Destination Screen" width="240" height="520">
+</div>
+
 ## Acknowledgments
 
 In collaboration with
